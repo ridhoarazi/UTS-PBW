@@ -15,14 +15,12 @@ function togglePricing() {
   const periodPremium = document.getElementById("period-premium");
 
   if (toggleBtn.checked) {
-    // Mode Tahunan
     priceBasic.textContent = "Rp 500.000";
     periodBasic.textContent = "/ tahun";
 
     pricePremium.textContent = "Rp 1.200.000";
     periodPremium.textContent = "/ tahun";
   } else {
-    // Mode Bulanan
     priceBasic.textContent = "Rp 50.000";
     periodBasic.textContent = "/ bulan";
 
