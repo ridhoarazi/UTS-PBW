@@ -1,0 +1,140 @@
+/* style.css */
+
+:root {
+  --cream: #F5F0E8;
+  --black: #0D0D0D;
+  --warm: #C8A97A;
+  --gray: #6B6B6B;
+  --light-gray: #E8E3DA;
+  --card-bg: #FDFAF5;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--black);
+}
+
+section {
+  scroll-margin-top: 60px; 
+}
+
+.navbar {
+  background-color: var(--light-gray) !important; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
+  transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: rgba(232, 227, 218, 0.95) !important; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand, .nav-link {
+  color: var(--black) !important;
+}
+
+.btn-primary {
+  background-color: var(--black);
+  border-color: var(--black);
+  color: var(--cream);
+}
+
+.btn-primary:hover {
+  background-color: var(--warm);
+  border-color: var(--warm);
+  color: var(--black);
+}
+
+.btn-outline-secondary {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.btn-outline-secondary:hover {
+  background-color: var(--black);
+  color: var(--cream);
+}
+
+.btn-outline-primary {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--black);
+  color: var(--cream);
+}
+
+.hero-section {
+  background-color: var(--cream); 
+  min-height: 80vh;
+  margin-top: 56px; 
+}
+
+#features {
+  background-color: var(--black) !important;
+  color: var(--cream);
+}
+
+#features h2 {
+  color: var(--cream);
+}
+
+#features .text-muted {
+  color: var(--warm) !important; 
+}
+
+.feature-card {
+  background-color: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--cream);
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.feature-card p {
+  color: rgba(245,240,232,0.6);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--warm);
+}
+
+#pricing {
+  background-color: var(--cream) !important; 
+}
+
+.pricing-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--light-gray);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.best-seller {
+  border: 2px solid var(--warm);
+}
+
+.best-seller .card-header {
+  background-color: var(--warm) !important;
+  color: var(--black) !important;
+  border-bottom: none;
+}
+
+#contact {
+  background-color: var(--light-gray) !important;
+}
+
+#contact .card {
+  background-color: var(--cream);
+  border: 1px solid var(--light-gray);
+}
+
+footer {
+  background-color: var(--black) !important;
+  color: rgba(245,240,232,0.5) !important;
+}
